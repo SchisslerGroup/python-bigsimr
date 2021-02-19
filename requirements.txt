@@ -2,3 +2,4 @@ scipy==1.5.4
 pandas==1.1.5
 jax==0.2.7
 numpy==1.19.2
+julia==0.5.6
