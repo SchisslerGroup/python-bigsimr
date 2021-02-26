@@ -15,7 +15,7 @@ setuptools.setup(
     install_requires=[
         "numpy>=1.19.2",
         "julia>=0.5.6"
-    ]
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
