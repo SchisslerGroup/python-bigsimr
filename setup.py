@@ -12,6 +12,10 @@ setuptools.setup(
     long_description=long_description,
     url="https://github.com/SchisslerGroup/python-bigsimr",
     packages=setuptools.find_packages(),
+    install_requires=[
+        "numpy>=1.19.2",
+        "julia>=0.5.6"
+    ]
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
