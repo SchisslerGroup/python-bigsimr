@@ -7,5 +7,5 @@ def setup(compiled_modules=True):
     jl = Julia(compiled_modules=compiled_modules)
 
     from julia import Pkg
-    Pkg.add("Bigsimr@0.8.0") # Lock to specific version for stability
+    Pkg.add("Bigsimr@0.8.1") # Lock to specific version for stability
     Pkg.add("Distributions") # Install Distributions after Bigsimr
