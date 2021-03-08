@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="bigsimr",
-    version="0.0.1",
+    version="0.1.0",
     author="Alex Knudson",
     author_email="aknudson@nevada.unr.edu",
     description="simulate high-dimensional multivariate data with arbitrary marginal distributions",
