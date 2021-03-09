@@ -16,7 +16,7 @@
 Install the `bigsimr` package from pip using
 
 ```
-pip install git+https://github.com/SchisslerGroup/python-bigsimr.git
+pip install pip install bigsimr
 ```
 
 Or install the development version with
@@ -36,14 +36,14 @@ setup(compiled_modules=False)
 
 ## Using
 
+The following must be run each time `bigsimr` is used.
+
 ```python
 from julia.api import Julia
 jl = Julia(compiled_modules=False) # conda users -> set to False
 
 from julia import Bigsimr as bs
 from julia import Distributions as dist
-
-import numpy as np
 ```
 
 ### Examples
