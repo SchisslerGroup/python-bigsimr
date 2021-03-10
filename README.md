@@ -1,6 +1,6 @@
 # bigsimr
 
-`bigsimr` is a Python3 package for simulating high-dimensional multivariate data with a target correlation and arbitrary marginal distributions via Gaussian copula. It utilizes [Bigsimr.jl](https://github.com/adknudson/Bigsimr.jl) for its core routines. For full documentation and examples, please see the [Bigsimr.jl docs](https://adknudson.github.io/Bigsimr.jl/stable/).
+`bigsimr` is a Python3 package for simulating high-dimensional multivariate data with a target correlation and arbitrary marginal distributions via Gaussian copula. It utilizes [Bigsimr.jl](https://github.com/SchisslerGroup/Bigsimr.jl) for its core routines. For full documentation and examples, please see the [Bigsimr.jl docs](https://SchisslerGroup.github.io/Bigsimr.jl/stable/).
 
 ## Features
 
